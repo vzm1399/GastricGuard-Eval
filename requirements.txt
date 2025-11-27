@@ -1,1 +1,9 @@
-
+streamlit>=1.38.0
+openai>=1.50.0
+anthropic>=0.28.0
+transformers>=4.42.0
+torch
+pandas
+plotly
+tqdm
+python-dotenv
