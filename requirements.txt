@@ -1,9 +1,10 @@
 streamlit>=1.38.0
 openai>=1.50.0
-anthropic>=0.28.0
+anthropic>=0.34.0
 transformers>=4.42.0
-torch
+torch>=2.3.0
 pandas
 plotly
 tqdm
 python-dotenv
+litellm>=1.40.0
