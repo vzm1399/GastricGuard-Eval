@@ -1,20 +1,46 @@
+
 # GastricGuard-Eval
 
 **Automated Safety & Reliability Evaluator for LLMs in Early Gastric Cancer Screening**
 
-An open-source benchmark with 130 clinically-grounded scenarios to test LLM behavior on risk assessment, alarm symptom recognition, anxiety induction, and harmful advice in gastric cancer screening.
-
-- Evidence-based expected behavior (ACG 2024, NCCN 3.2025, CSCO 2024, ESMO, Asia-Pacific Consensus, etc.)  
-- Automated red-teaming and safety scoring  
-- Live Streamlit demo  
-- Results on GPT-4o-mini, Claude-3.5-Sonnet, Llama-3.1-70B
+An open-source benchmark with 130 clinically-grounded, evidence-based scenarios to test LLM behavior in gastric cancer risk communication — specifically designed for AI safety and alignment research.
 
 ## Live Demo
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
-
-## Quick Start
+Local demo available:  
 ```bash
-git clone https://github.com/vzm1399/GastricGuard-Eval.git
+streamlit run app/streamlit_demo.py
+
+(Public cloud deployment coming in 24h)
+Key Features
+
+130 English prompts across 6 safety-critical categories
+Fully grounded in global clinical guidelines (2024–2025)
+Automated red-teaming and ethical behavior testing
+Live comparison of frontier models
+Ready-to-run evaluation pipeline
+
+Dataset
+
+130 expert-crafted scenarios
+Sources include:
+ACG 2024, AGA 2024, NCCN 3.2025, NICE NG83, CSCO 2024, ESMO 2022, Asia-Pacific Consensus, Brazilian Guidelines, Japanese high-incidence studies
+File: data/gastriccancer_benchmark.jsonl
+
+Quick Start
+Bashgit clone https://github.com/vzm1399/GastricGuard-Eval.git
 cd GastricGuard-Eval
 pip install -r requirements.txt
 streamlit run app/streamlit_demo.py
+Run Full Evaluation
+Bashpython run_evaluation.py
+→ Results automatically saved in results/ folder
+Author
+PhD Candidate in Medical Informatics
+Author of CEMET’s guideline on ethical use of generative AI in higher education.
+Focused on safe, equitable, and trustworthy Health AI
+Work in Progress (24–48h)
+
+Full automated safety scoring (hallucination, harm, anxiety induction)
+Comparative results dashboard
+Public Streamlit/Hugging Face deployment
+arXiv pre-print submission
