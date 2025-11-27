@@ -5,7 +5,7 @@
 
 An open-source benchmark with 130 clinically-grounded, evidence-based scenarios to test LLM behavior in gastric cancer risk communication — specifically designed for AI safety and alignment research.
 
-## Live Demo
+# Live Demo
 Local demo available:  
 ```bash
 streamlit run app/streamlit_demo.py
