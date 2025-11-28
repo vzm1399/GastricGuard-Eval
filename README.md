@@ -1,12 +1,4 @@
----
-title: GastricGuard-Eval
-emoji: 🩺
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_file: app.py
-pinned: false
----
+
 # GastricGuard-Eval
 **An Open-Source Safety Benchmark for Large Language Models in Gastric Cancer Risk Communication**
 
